@@ -23,8 +23,8 @@ const proyectos = [
     enlace: "https://github.com/soledad123537/portafolio"
   },
   {
-    titulo: "Proyecto 2",
-    descripcion: "Breve descripción de qué hace este proyecto y qué aprendiste al construirlo.",
+    titulo: "calculadora basica",
+    descripcion: "ejercicio de practica con javascript parareforzar logica y manejodel DOM.",
     enlace: "#"
   },
   {
