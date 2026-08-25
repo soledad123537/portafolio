@@ -18,9 +18,9 @@ escribir();
 // ------- Datos de proyectos (edítalos con los tuyos) -------
 const proyectos = [
   {
-    titulo: "Proyecto 1",
-    descripcion: "Breve descripción de qué hace este proyecto y qué aprendiste al construirlo.",
-    enlace: "#"
+    titulo: "mi portafolio personal",
+    descripcion: "sitiio web hecho con HTML,css y JavScript como parte de mi aprendizaje, incluye animaciones y iseño responsive.",
+    enlace: "https://github.com/soledad123537/portafolio"
   },
   {
     titulo: "Proyecto 2",
