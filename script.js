@@ -28,8 +28,8 @@ const proyectos = [
     enlace: "#"
   },
   {
-    titulo: "Proyecto 3",
-    descripcion: "Breve descripción de qué hace este proyecto y qué aprendiste al construirlo.",
+    titulo: "pagina de aterrizaje",
+    descripcion: "landig page estatica practicando maquetacion con HTML y CSS.",
     enlace: "#"
   }
 ];
