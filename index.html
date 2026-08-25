@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tu Nombre — Portafolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <span class="nav__logo">~/tu-nombre</span>
+  <nav class="nav__links">
+    <a href="#sobre-mi">sobre-mí</a>
+    <a href="#habilidades">habilidades</a>
+    <a href="#proyectos">proyectos</a>
+    <a href="#contacto">contacto</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="terminal">
+      <div class="terminal__bar">
+        <span class="dot dot--red"></span>
+        <span class="dot dot--yellow"></span>
+        <span class="dot dot--green"></span>
+        <span class="terminal__title">bienvenida.sh</span>
+      </div>
+      <div class="terminal__body">
+        <p id="typed-line" class="terminal__line"></p>
+        <span class="cursor" id="cursor">▌</span>
+      </div>
+    </div>
+    <h1 class="hero__title">Hola, soy <span class="accent">Tu Nombre</span></h1>
+    <p class="hero__subtitle">Estudiante construyendo su primer sitio web — un commit a la vez.</p>
+    <a href="#proyectos" class="btn">Ver proyectos</a>
+  </section>
+
+  <section id="sobre-mi" class="section">
+    <p class="eyebrow">v1.0 — presentación</p>
+    <h2>Sobre mí</h2>
+    <p class="section__text">
+      Escribe aquí una breve historia sobre ti: qué estás estudiando, qué te motivó a
+      aprender a programar y qué te gustaría construir. Dos o tres frases son suficientes.
+    </p>
+  </section>
+
+  <section id="habilidades" class="section section--alt">
+    <p class="eyebrow">v1.1 — herramientas</p>
+    <h2>Habilidades</h2>
+    <ul class="skills">
+      <li class="skill"><span class="skill__name">HTML</span><div class="skill__bar"><span style="width:85%"></span></div></li>
+      <li class="skill"><span class="skill__name">CSS</span><div class="skill__bar"><span style="width:75%"></span></div></li>
+      <li class="skill"><span class="skill__name">JavaScript</span><div class="skill__bar"><span style="width:60%"></span></div></li>
+      <li class="skill"><span class="skill__name">Git &amp; GitHub</span><div class="skill__bar"><span style="width:65%"></span></div></li>
+    </ul>
+  </section>
+
+  <section id="proyectos" class="section">
+    <p class="eyebrow">v1.2 — trabajo</p>
+    <h2>Proyectos</h2>
+    <div class="projects" id="projects">
+      <!-- Las tarjetas de proyecto se generan con JavaScript, ver script.js -->
+    </div>
+  </section>
+
+  <section id="contacto" class="section section--alt">
+    <p class="eyebrow">v1.3 — contacto</p>
+    <h2>Hablemos</h2>
+    <p class="section__text">¿Quieres contactarme? Escríbeme por cualquiera de estos medios.</p>
+    <div class="contact-links">
+      <a href="mailto:tu-correo@ejemplo.com">Correo</a>
+      <a href="https://github.com/tu-usuario" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Tu Nombre. Hecho con HTML, CSS y JS.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
